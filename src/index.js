@@ -2,6 +2,12 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// ejs
+app.set('view engine', 'ejs');
+
+//static public 
+app.use(express.static('public'));
+
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
