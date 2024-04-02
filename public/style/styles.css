@@ -36,12 +36,13 @@ body {
     display: block;
     font-size: 24px;
     transition: all ease 450ms;
+    color: white;
 }
 
 .sidebar-navigation ul li .tooltip {
     display: inline-block;
     position: absolute;
-    background-color: #313443;
+    background-color: #dbdde9;
     padding: 8px 15px;
     border-radius: 3px;
     margin-top: -26px;
@@ -67,4 +68,9 @@ body {
 
 .sidebar-navigation ul li.active i {
     color: #98D7EC;
+}
+
+
+.sidebar-navigation ul a{
+    text-decoration: none;
 }
